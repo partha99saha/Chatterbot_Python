@@ -1,0 +1,14 @@
+# python -m pip install --upgrade pip setuptools wheel
+
+Flask==2.2.5
+spacy==3.7.5
+numpy==1.26.4
+thinc==8.2.5
+# chatterbot2
+git+https://github.com/gunthercox/ChatterBot.git@master
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# python -m venv venv
+# venv\Scripts\activate
+# pip freeze > requirements.txt
+# flask --app app.py --debug run
